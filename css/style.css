@@ -1,0 +1,61 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+}
+
+h4
+{
+  color: hsl(178, 100%, 50%);
+}
+
+h5 {
+  color: hsl(215, 32%, 27%);
+  margin-left: 7em;
+}
+
+h6 {
+  color: hsl(215, 32%, 27%);
+text-align:right;
+}
+
+
+h4,h5 {
+  display: inline-block;
+}
+
+span {
+  color: hsl(215, 51%, 70%);
+}
+
+p {
+  color: hsl(215, 32%, 27%);
+}
+
+.con {
+  padding: 10px;
+  width: 15em;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+
+.con img {
+  width: 15em;
+  border-radius: 10px;
+}
+
+hr {
+  border-width:1px 0 0 0;
+  height: 1px;
+  color: hsl(215, 51%, 70%);
+}
+
+.con .avatar {
+  width: 2em;
+}
